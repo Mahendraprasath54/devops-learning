@@ -1,0 +1,208 @@
+  httpSession >> 44d1526bb7d64a1ed679ffff3469|#]
+  currentMenuTab null|#]
+  retrieveDrawingAndDendingDetails - CmpCode: RGS, OrgCode: RBW, WorkOrderNo: FAB-2199, JobCardNo: 41685|#]
+  Found existing job card drawing with ID: 47, Job Card No: 41685, loading saved data from rgs_job_drawing_hdr|#]
+  retrieveDrawingReportHeaderFields - Product details: RBW Design=JRB5384, Fabric Blend=100%Cotton, Greige Class=Yarn Dyed Fabric, Product Class=Jacquard, Product Sub Class=null, Product Sub Class=null|#]
+  retrieveDrawingReportHeaderFields - Work Order: Buyer=THREADMILL FINE DECOR PRIVATE LIMITED, PO No=3e34, Sales Order=Greige Fabric|#]
+  retrieveDrawingReportHeaderFields - Production Process: LoomNo=DJ10, LoomType=433, DueDate=2026-03-17|#]
+  retrieveDrawingReportHeaderFields - Process Line: DemandQty=1000.0000, Qty=1000.0000, BalanceQty=0.0000|#]
+  retrieveDrawingReportHeaderFields - Start fetching Buyer Design for Job Card: 41685|#]
+  retrieveDrawingReportHeaderFields - Buyer Design set successfully: fit|#]
+  retrieveDrawingWarp [jobCard] - rows: 1|#]
+  retrieveDrawingWeft [jobCard] - rows: 1|#]
+  retrieveDrawingCreel [jobCard] - rows: 1|#]
+  retrieveDrawingLine [jobCard] - rows: 1|#]
+  httpSession >> 44d1526bb7d64a1ed679ffff3469|#]
+  currentMenuTab null|#]
+  retrieveUOM Logs Time:0 hr 0 min 0 sec 25 ms|#]
+  retrieveProcessTypes Logs Time:0 hr 0 min 0 sec 5 ms|#]
+  retrieveSysProperties Logs Time:0 hr 0 min 0 sec 32 ms|#]
+  retrieveSelfNodeMap Logs Time:0 hr 0 min 0 sec 132 ms|#]
+  retrieveSegmentByScreenId Logs Time:0 hr 0 min 0 sec 17 ms|#]
+  retrieveSegmentByScreenId  segmentationDTOs  Logs Time:0 hr 0 min 0 sec 5 ms|#]
+  retrieveSegmentByScreenId  segmentationDTOs  Logs Time:0 hr 0 min 0 sec 7 ms|#]
+  checkIfCreelPlanFreezed  Logs Time:0 hr 0 min 0 sec 0 ms|#]
+  retrieveJobCard  Logs Time:0 hr 0 min 0 sec 360 ms|#]
+  checkIfCreelPlanFreezed  Logs Time:0 hr 0 min 0 sec 5 ms|#]
+  === downloadDrawingAndDendingReport() called ===|#]
+  File Type: pdf|#]
+  Drawing and Dending - Work Order No: FAB-2199, CmpCode: RGS, OrgCode: RBW|#]
+  retrieveDrawingAndDendingDetails - CmpCode: RGS, OrgCode: RBW, WorkOrderNo: FAB-2199, JobCardNo: 41685|#]
+  Found existing job card drawing with ID: 47, Job Card No: 41685, loading saved data from rgs_job_drawing_hdr|#]
+  retrieveDrawingReportHeaderFields - Product details: RBW Design=JRB5384, Fabric Blend=100%Cotton, Greige Class=Yarn Dyed Fabric, Product Class=Jacquard, Product Sub Class=null, Product Sub Class=null|#]
+  retrieveDrawingReportHeaderFields - Work Order: Buyer=THREADMILL FINE DECOR PRIVATE LIMITED, PO No=3e34, Sales Order=Greige Fabric|#]
+  retrieveDrawingReportHeaderFields - Production Process: LoomNo=DJ10, LoomType=433, DueDate=2026-03-17|#]
+  retrieveDrawingReportHeaderFields - Process Line: DemandQty=1000.0000, Qty=1000.0000, BalanceQty=0.0000|#]
+  retrieveDrawingReportHeaderFields - Start fetching Buyer Design for Job Card: 41685|#]
+  retrieveDrawingReportHeaderFields - Buyer Design set successfully: fit|#]
+  retrieveDrawingWarp [jobCard] - rows: 1|#]
+  retrieveDrawingWeft [jobCard] - rows: 1|#]
+  retrieveDrawingCreel [jobCard] - rows: 1|#]
+  retrieveDrawingLine [jobCard] - rows: 1|#]
+  Drawing and Dending DTO retrieved - Greige SKU: 280TC-S1230J-JRB5384-166|#]
+  Warp List Size: 1|#]
+  Weft List Size: 1|#]
+  Creel List Size: 1|#]
+  Drawing Order List Size: 1|#]
+  Report Parameters prepared:|#]
+    - Warp List Size: 1|#]
+    - Weft List Size: 1|#]
+    - Creel List Size: 1|#]
+    - Drawing List Size: 1|#]
+    - Total Ends: 1.000|#]
+    - Total Dents: 1.000|#]
+  Error generating Drawing and Dending report
+net.sf.jasperreports.engine.JRException: Error retrieving field value from bean: worklogId.
+	at net.sf.jasperreports.engine.data.JRAbstractBeanDataSource.getBeanProperty(JRAbstractBeanDataSource.java:205)
+	at net.sf.jasperreports.engine.data.JRAbstractBeanDataSource.getFieldValue(JRAbstractBeanDataSource.java:170)
+	at net.sf.jasperreports.engine.data.JRBeanCollectionDataSource.getFieldValue(JRBeanCollectionDataSource.java:104)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.setOldValues(JRFillDataset.java:1501)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.next(JRFillDataset.java:1402)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.next(JRFillDataset.java:1378)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.next(JRBaseFiller.java:1200)
+	at net.sf.jasperreports.engine.fill.JRVerticalFiller.fillReport(JRVerticalFiller.java:108)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:621)
+	at net.sf.jasperreports.engine.fill.BaseReportFiller.fill(BaseReportFiller.java:433)
+	at net.sf.jasperreports.engine.fill.JRFiller.fill(JRFiller.java:162)
+	at net.sf.jasperreports.engine.JasperFillManager.fill(JasperFillManager.java:651)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:1020)
+	at com.rgs.erp.presentation.production.inhouse.bean.WeavingJobCardBean.downloadDrawingAndDendingReport(WeavingJobCardBean.java:1028)
+	at com.rgs.erp.presentation.production.inhouse.bean.SearchJobCardWeavingBean.printDrawingAndDendingReport(SearchJobCardWeavingBean.java:1551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.el.ELUtil.invokeMethod(ELUtil.java:332)
+	at javax.el.BeanELResolver.invoke(BeanELResolver.java:537)
+	at javax.el.CompositeELResolver.invoke(CompositeELResolver.java:256)
+	at com.sun.el.parser.AstValue.invoke(AstValue.java:283)
+	at com.sun.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:304)
+	at org.jboss.weld.util.el.ForwardingMethodExpression.invoke(ForwardingMethodExpression.java:40)
+	at org.jboss.weld.el.WeldMethodExpression.invoke(WeldMethodExpression.java:50)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at org.primefaces.application.DialogActionListener.processAction(DialogActionListener.java:54)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:344)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at com.rgs.erp.presentation.framework.bean.NoCacheFilter.doFilter(NoCacheFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:256)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:89)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:256)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at com.rgs.erp.presentation.framework.CORSFilter.doFilter(CORSFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:256)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:316)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:412)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:282)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:201)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:175)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:561)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:565)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:545)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NoSuchMethodException: Unknown property 'worklogId' on class 'class com.rgs.erp.service.production.inhouse.dto.DrawingAndDendingDTO'
+	at org.apache.commons.beanutils.PropertyUtilsBean.getSimpleProperty(PropertyUtilsBean.java:1313)
+	at org.apache.commons.beanutils.PropertyUtilsBean.getNestedProperty(PropertyUtilsBean.java:762)
+	at org.apache.commons.beanutils.PropertyUtilsBean.getProperty(PropertyUtilsBean.java:837)
+	at org.apache.commons.beanutils.PropertyUtils.getProperty(PropertyUtils.java:426)
+	at net.sf.jasperreports.engine.data.JRAbstractBeanDataSource.getBeanProperty(JRAbstractBeanDataSource.java:185)
+	... 77 more
+|#]
+  StandardWrapperValve[DynamicImageServlet]: Servlet.service() for servlet DynamicImageServlet threw exception
+java.lang.NoClassDefFoundError: Could not initialize class com.amazonaws.partitions.PartitionsLoader
+	at com.amazonaws.regions.RegionMetadataFactory.create(RegionMetadataFactory.java:30)
+	at com.amazonaws.regions.RegionUtils.initialize(RegionUtils.java:64)
+	at com.amazonaws.regions.RegionUtils.getRegionMetadata(RegionUtils.java:52)
+	at com.amazonaws.regions.RegionUtils.getRegion(RegionUtils.java:106)
+	at com.amazonaws.client.builder.AwsClientBuilder.getRegionObject(AwsClientBuilder.java:256)
+	at com.amazonaws.client.builder.AwsClientBuilder.withRegion(AwsClientBuilder.java:245)
+	at com.amazonaws.client.builder.AwsClientBuilder.withRegion(AwsClientBuilder.java:232)
+	at com.rgs.framework.aws.s3.AWSS3Integration.getDocument(AWSS3Integration.java:213)
+	at com.rgs.framework.file.DynamicImageServlet.doGet(DynamicImageServlet.java:46)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:344)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at com.rgs.erp.presentation.framework.CORSFilter.doFilter(CORSFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:256)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:316)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:412)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:282)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:459)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:167)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:201)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:175)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:235)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:561)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone') {
+            steps {
+                echo 'Cloning done automatically'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'echo Building project 🚀'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'echo Running tests ✅'
+            }
+        }
+    }
+}
